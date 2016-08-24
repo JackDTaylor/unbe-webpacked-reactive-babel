@@ -1,0 +1,28 @@
+{
+  "name": "unbe-webpacked-reactive-babel",
+  "version": "1.0.0",
+  "description": "Webpacked reactive ES6 with decorators",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackDTaylor/unbe-webpacked-reactive-babel.git"
+  },
+  "keywords": [
+    "when",
+    "all",
+    "this",
+    "stuff",
+    "gone",
+    "so",
+    "wrong"
+  ],
+  "author": "Jack D. Taylor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JackDTaylor/unbe-webpacked-reactive-babel/issues"
+  },
+  "homepage": "https://github.com/JackDTaylor/unbe-webpacked-reactive-babel#readme"
+}
