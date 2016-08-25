@@ -1,20 +1,21 @@
-var path = require('path');
-var webpack = require('webpack');
+var pathsConfig = require('./paths.config');
+var Webpack = require('webpack');
 
+//noinspection JSUnresolvedFunction
 var config = {
 	devtool: 'cheap-module-eval-source-map',
 	entry: [
-		'./app.js',
+		'./frontend.js',
 		'webpack-hot-middleware/client'
 	],
 	output: {
-		path: path.join(__dirname, 'assets'),
+		path: pathsConfig.assets,
 		filename: 'bundle.js',
-		publicPath: '/assets/'
+		publicPath: pathsConfig.assetsUrl
 	},
 	plugins: [
-		new webpack.HotModuleReplacementPlugin(),
-		new webpack.NoErrorsPlugin()
+		new Webpack.HotModuleReplacementPlugin(),
+		new Webpack.NoErrorsPlugin()
 	],
 	module: {
 		loaders: [
